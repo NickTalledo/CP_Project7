@@ -1,0 +1,164 @@
+:root {
+  background-color: gray;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.coolShadow {
+  color: yellow;
+  text-align: center;
+  margin-left: 150px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: -1px 1px 0 #000, -2px 2px 0 #000, -3px 3px 0 #000,
+    -4px 4px 0 #000, -5px 5px 0 #000, -6px 6px 0 #000, -7px 7px 0 #000;
+}
+
+.text1 {
+  text-align: center;
+  color: white;
+  margin-left: 150px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #535353;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 16px;
+  display: block;
+  transition: color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.nav-link:hover {
+  color: #f6ff00;
+  background-color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 0 500px 0 auto;
+  padding: 20px;
+  border: 1px solid #f2ff00;
+  border-radius: 8px;
+  background-color: #000000;
+  margin-bottom: 50px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: yellow;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fffb00;
+  color: black;
+}
+
+.icon {
+  margin-top: 250px;
+}
+
+.jedi-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.jedi-card {
+  width: 300px;
+  background-color: #000000;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #f6ff00;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.jedi-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #f6ff00;
+}
+
+.jedi-card p {
+  font-size: 16px;
+  color: #f6ff00;
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.delete {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+  background-color: rgb(255, 0, 0);
+  color: black;
+}
+
+.edit-form-container {
+  position: absolute;
+  top: 70%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+}
