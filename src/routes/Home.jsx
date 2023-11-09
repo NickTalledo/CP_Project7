@@ -2,7 +2,7 @@ import Nav from "../components/Nav";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bottom">
       <Nav />
       <h1 className="coolShadow">Star Wars</h1>
       <h2 className="text1">Welcome to the Jedi Creator!</h2>
@@ -19,10 +19,7 @@ const Home = () => {
         <img
           src="https://thenerdd.files.wordpress.com/2019/12/d_nq_np_463215-mlb25194406829_112016-o.jpg"
           alt="jedi/sith"
-          height={350}
-          style={{
-            marginLeft: 150,
-          }}
+          className="img1"
         />
       </div>
     </div>

@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className="sidenav">
       <Link to="/home" className="nav-link">
-        HomePage{" "}
+        Home{" "}
       </Link>
       <Link to="/create" className="nav-link">
         Create
